@@ -1,4 +1,9 @@
 .eslintrc.cjs
-vite.config.ts
 dist
 scripts
+node_modules
+build
+public
+
+#files
+*.config.*
