@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
-import { Button } from '@/components/ui/button';
+import MainLayout from '@/components/layout/MainLayout.vue';
 </script>
 
 <template>
-    <HelloWorld msg="Vite + Vue" />
-    <Button>Click me</Button>
+    <MainLayout>
+        <RouterView />
+    </MainLayout>
 </template>
