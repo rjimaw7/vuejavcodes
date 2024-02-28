@@ -14,6 +14,8 @@
     },
     "dependencies": {
         "@tanstack/vue-query": "^5.24.1",
+        "@tanstack/vue-query-devtools": "^5.24.1",
+        "@vercel/postgres": "^0.7.2",
         "@vueuse/core": "^10.9.0",
         "axios": "^1.6.7",
         "class-variance-authority": "^0.7.0",
@@ -21,12 +23,14 @@
         "husky": "^9.0.11",
         "lint-staged": "^15.2.2",
         "lucide-vue-next": "^0.341.0",
+        "numeral": "^2.0.6",
         "pinia": "^2.1.7",
         "radix-vue": "^1.4.9",
         "tailwind-merge": "^2.2.1",
         "tailwindcss-animate": "^1.0.7",
         "vue": "^3.4.19",
-        "vue-router": "^4.3.0"
+        "vue-router": "^4.3.0",
+        "zod": "^3.22.4"
     },
     "lint-staged": {
         "*.{js,ts,vue}": [
@@ -37,12 +41,15 @@
         ]
     },
     "devDependencies": {
+        "@faker-js/faker": "^8.4.1",
         "@types/node": "^20.11.21",
+        "@types/numeral": "^2.0.5",
         "@typescript-eslint/eslint-plugin": "^7.1.0",
         "@typescript-eslint/parser": "^7.1.0",
         "@vitejs/plugin-vue": "^5.0.4",
         "@vue/eslint-config-typescript": "^12.0.0",
         "autoprefixer": "^10.4.17",
+        "dotenv": "^16.4.5",
         "eslint": "^8.57.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-no-relative-import-paths": "^1.5.3",

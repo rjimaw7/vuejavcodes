@@ -15,7 +15,9 @@
         "useDefineForClassFields": true, // Allows initializing class fields directly within the class body without a constructor.
         "paths": {
             "@/*": ["src/*"],
-            "@/components/*": ["src/components/*"]
+            "@/components/*": ["src/components/*"],
+            "@/server/*": ["src/server/*"],
+            "@/shared/*": ["src/shared/*"]
         },
 
         /* Linting */

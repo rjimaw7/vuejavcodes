@@ -1,5 +1,6 @@
 <script setup>
 import HeaderNav from './HeaderNav.vue';
+import { VueQueryDevtools } from '@tanstack/vue-query-devtools';
 </script>
 
 <template>
@@ -7,4 +8,5 @@ import HeaderNav from './HeaderNav.vue';
         <HeaderNav />
         <slot></slot>
     </main>
+    <VueQueryDevtools />
 </template>
